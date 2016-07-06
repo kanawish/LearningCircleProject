@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button button;
 
     // Here's a comment.
+    // Here's another comment.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
