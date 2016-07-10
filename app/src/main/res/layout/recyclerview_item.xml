@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:id="@+id/list_item_parent">
+
+    <ImageView
+        android:id="@+id/list_item_city_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/montreal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/list_item_city_icon">
+
+        <TextView
+            android:id="@+id/list_item_cityname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cityName"
+            android:textSize="36sp"/>
+
+        <TextView
+            android:id="@+id/list_item_geolocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="geolocation"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
