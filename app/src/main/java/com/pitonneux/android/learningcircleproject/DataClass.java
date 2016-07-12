@@ -5,6 +5,7 @@ package com.pitonneux.android.learningcircleproject;
  */
 public class DataClass {
 
+    public static final String CITY_KEY = "CITY_KEY";
 
 //    Data lives here
 
@@ -14,10 +15,9 @@ public class DataClass {
     public static String[] cityGeolocations = {"51°30′26″N 0°7′39″W", "48°51′24″N 2°21′03″E",
             "45°30′N 73°34′W", "39°55′N 116°23′E", "52°31′N 13°23′E", "city6Geo",
             "city7Geo", "city8Geo", "city9Geo", "city10Geo"};
-    public static int[] cityIconIDs = {R.drawable.city_placeholder, R.drawable.city_placeholder,
-            R.drawable.city_placeholder, R.drawable.city_placeholder, R.drawable.city_placeholder,
-            R.drawable.city_placeholder, R.drawable.city_placeholder, R.drawable.city_placeholder,
-            R.drawable.city_placeholder, R.drawable.city_placeholder};
+    public static int[] cityIconIDs = {R.drawable.london, R.drawable.paris, R.drawable.montreal,
+            R.drawable.beijing, R.drawable.berlin, R.drawable.city_placeholder, R.drawable.city_placeholder,
+            R.drawable.city_placeholder, R.drawable.city_placeholder, R.drawable.city_placeholder};
     public static String[] descriptions = {"Lots of tea!", "Baguette!", "Poutine!", "Rice!",
             "Beer!", "desc6", "desc7", "desc8", "desc9", "desc10"};
     public static String[] countries = {"England", "France", "Canada", "China", "Germany",
