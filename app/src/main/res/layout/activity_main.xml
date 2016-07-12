@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout android:id="@+id/activity_main"
+<LinearLayout android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.pitonneux.android.learningcircleproject.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:id="@+id/textView"
-        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
-        app:layout_constraintTop_toTopOf="@+id/activity_main"
-        app:layout_constraintRight_toRightOf="@+id/activity_main"
-        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
-        app:layout_constraintVertical_bias="0.1" />
+        android:id="@+id/textView"/>
 
     <Button
         android:id="@+id/button"
         android:text="Ok!"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:layout_marginTop="88dp"
-        app:layout_constraintRight_toRightOf="@+id/activity_main" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_height="wrap_content" />
+</LinearLayout>
